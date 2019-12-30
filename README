@@ -1,0 +1,15 @@
+Each API is activated thru settings.py
+ - Fist you define a variable with the string name of the freighter
+ - Second you add that to ACTIVE_APIS
+ - Third plot the remaning information into FREIGHTER_APIS
+
+
+Each Freighter has its own folder inside the gateway folder.
+A Freighter inside the gateway folder should consist of: __init__.py, errors.py, request.py, Optionaly add more files as your see fit
+
+__init__.py has 4 methods defined, with documentation about input and output.
+Those 4 methods must be present in the freighter modules __init__.py
+For each method, there is a guide to what input they take and the output they return.
+Link your program to those 4 methods and make sure they behave as expected.
+
+The connection params defined in settings.py can can be pulled from __init__.py in your freighter module.
